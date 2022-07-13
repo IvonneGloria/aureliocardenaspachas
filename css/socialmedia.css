@@ -1,0 +1,76 @@
+.red{
+    display: none;
+    position: fixed;
+    top: 150px;
+    z-index: 100;
+    left: 0;
+}
+
+#facebook a{
+    background-color: #3b5999;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 36px;
+    transition: all .4s ease;
+    margin-bottom: 5px;
+    
+}
+#facebook a:hover{
+    padding: 10px 35px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#messenger a{
+    background-color: #0080F8;
+    padding: 10px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 36px;
+    margin-bottom: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#messenger a:hover{
+    padding: 10px 35px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#whatsapp a{
+    background-color: #4dc247;
+    padding: 10px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 36px;
+    margin-bottom: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#whatsapp a:hover{
+    padding: 10px 35px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#gmail a{
+    background-color: #ea4335;
+    padding: 10px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 36px;
+    margin-bottom: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#gmail a:hover{
+    padding: 10px 35px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+@media (min-width: 448px) {
+    .red{
+      display: inline-block;
+    }
+  }
